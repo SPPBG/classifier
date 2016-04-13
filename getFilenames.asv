@@ -1,0 +1,4 @@
+function names = getFilenames(filter)
+    files =dir(filter),'name')
+    names = transpose(extractfield();
+end
